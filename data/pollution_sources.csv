@@ -1,0 +1,19 @@
+Location,Pollution_Source,Pollution_Type,Severity,Likely_Impact
+Trimbakeshwar (Kushawart),Religious bathing and ritual offerings,Organic/Solid,Medium,Localised litter and organic load
+Someshwar,Domestic sewage and nearby waste discharge,Domestic sewage,High,Elevated BOD and faecal contamination
+Panchavati / Ramkund,Mass bathing, asthi visarjan and ritual waste,Organic/Solid,High,Organic pollution and solid waste accumulation
+Sawarkar Nagar / riverbank public-use areas,Waste discharge from surrounding urban activity,Urban solid waste,Medium,Localized water quality stress
+Satpur MIDC,Industrial wastewater,Industrial effluent,High,Chemical contamination
+Ambad MIDC,Industrial wastewater and runoff from industrial drains,Industrial effluent,High,Pollution load downstream
+Someshwarnala,Untreated sewage and industrial wastewater via nala,Sewage/industrial effluent,High,Sharp deterioration in water quality
+Chikhli Nala,Untreated sewage and industrial wastewater via nala,Sewage/industrial effluent,High,Reduced dissolved oxygen and higher BOD
+Anandwalli Nala,Untreated sewage and industrial wastewater via nala,Sewage/industrial effluent,High,Downstream river degradation
+Tapovan STP area,Poorly operated STP effluent,Treated/partially treated sewage,High,Residual organic pollution
+Samtanagar / Nasardinala,Untreated sewage from Pimpalgaon and Ambad MIDC,Domestic + industrial sewage,High,Very bad downstream water quality
+Agartakli downstream,Uncommissioned STP leading to direct sewage discharge,Domestic sewage,High,Severe oxygen depletion
+Nanded – Kaleshwar,Frequent washing and bathing activities,Domestic/ritual use,Medium,Localised water quality stress
+Nanded – Govardhan Ghat,City sewage, washing, bathing and ash disposal,Domestic sewage / ritual waste,High,Localized contamination
+Nanded – Shani Ghat,Huge nala carrying city sewage and garbage,Domestic sewage / solid waste,High,Faecal pollution and litter
+Nanded – Navghat,Domestic sewage and city garbage dump,Domestic sewage / solid waste,High,Water quality deterioration
+Nanded – Hattibanda (Idgah Ghat),City sewage nallas and slaughterhouse runoff,Domestic sewage / animal waste,High,High nutrient and microbial load
+Nanded – Vajegaon,Local village activities and riverbank use,Agricultural/domestic runoff,Medium,Localized impact
