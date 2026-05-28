@@ -1,19 +1,40 @@
-Location,Pollution_Source,Pollution_Type,Severity,Likely_Impact
-Trimbakeshwar (Kushawart),Religious bathing and ritual offerings,Organic/Solid,Medium,Localised litter and organic load
-Someshwar,Domestic sewage and nearby waste discharge,Domestic sewage,High,Elevated BOD and faecal contamination
-Panchavati / Ramkund,Mass bathing, asthi visarjan and ritual waste,Organic/Solid,High,Organic pollution and solid waste accumulation
-Sawarkar Nagar / riverbank public-use areas,Waste discharge from surrounding urban activity,Urban solid waste,Medium,Localized water quality stress
-Satpur MIDC,Industrial wastewater,Industrial effluent,High,Chemical contamination
-Ambad MIDC,Industrial wastewater and runoff from industrial drains,Industrial effluent,High,Pollution load downstream
-Someshwarnala,Untreated sewage and industrial wastewater via nala,Sewage/industrial effluent,High,Sharp deterioration in water quality
-Chikhli Nala,Untreated sewage and industrial wastewater via nala,Sewage/industrial effluent,High,Reduced dissolved oxygen and higher BOD
-Anandwalli Nala,Untreated sewage and industrial wastewater via nala,Sewage/industrial effluent,High,Downstream river degradation
-Tapovan STP area,Poorly operated STP effluent,Treated/partially treated sewage,High,Residual organic pollution
-Samtanagar / Nasardinala,Untreated sewage from Pimpalgaon and Ambad MIDC,Domestic + industrial sewage,High,Very bad downstream water quality
-Agartakli downstream,Uncommissioned STP leading to direct sewage discharge,Domestic sewage,High,Severe oxygen depletion
-Nanded – Kaleshwar,Frequent washing and bathing activities,Domestic/ritual use,Medium,Localised water quality stress
-Nanded – Govardhan Ghat,City sewage, washing, bathing and ash disposal,Domestic sewage / ritual waste,High,Localized contamination
-Nanded – Shani Ghat,Huge nala carrying city sewage and garbage,Domestic sewage / solid waste,High,Faecal pollution and litter
-Nanded – Navghat,Domestic sewage and city garbage dump,Domestic sewage / solid waste,High,Water quality deterioration
-Nanded – Hattibanda (Idgah Ghat),City sewage nallas and slaughterhouse runoff,Domestic sewage / animal waste,High,High nutrient and microbial load
-Nanded – Vajegaon,Local village activities and riverbank use,Agricultural/domestic runoff,Medium,Localized impact
+District,Location,Pollution_Source,Pollution_Type,Category_Group,Severity,Severity_Score,Likely_Impact,Pollution_Count
+Nashik,Trimbakeshwar,Ritual bathing and offerings,Religious & Organic Waste,Cultural/Human Activity,Medium,2,Organic Pollution,1
+Nashik,Gangapur Dam,Urban runoff and upstream waste inflow,Domestic Sewage,Wastewater,Medium,2,Water Quality Degradation,1
+Nashik,Someshwar,Domestic sewage from nearby settlements,Domestic Sewage,Wastewater,High,3,Organic Pollution,1
+Nashik,Panchavati,Mass bathing and ritual waste,Religious & Organic Waste,Cultural/Human Activity,High,3,Microbial Contamination,1
+Nashik,Anandwalli,Untreated sewage from nalas and slums,Mixed Pollution,Wastewater,High,3,Water Quality Degradation,1
+Nashik,Tapovan STP,Partly treated STP discharge,Domestic Sewage,Wastewater,High,3,Low Dissolved Oxygen,1
+Nashik,Satpur MIDC,Industrial wastewater discharge,Industrial Effluent,Industrial,High,3,Chemical Contamination,1
+Nashik,Ambad MIDC,Industrial wastewater and drain runoff,Industrial Effluent,Industrial,High,3,Chemical Contamination,1
+Nashik,Nandur Madhmeshwar,Agricultural runoff and sediment inflow,Agricultural Runoff,Agricultural,Medium,2,Sedimentation & Siltation,1
+Ahmednagar,Kopargaon,Urban sewage discharge,Mixed Pollution,Wastewater,Medium,2,Organic Pollution,1
+Ahmednagar,Puntamba,Ritual activities and local waste dumping,Religious & Organic Waste,Cultural/Human Activity,Medium,2,Microbial Contamination,1
+Ahmednagar,Pravarasangam,Tributary inflow and agricultural runoff,Agricultural Runoff,Agricultural,Medium,2,Nutrient Pollution,1
+Ahmednagar,Godavari-Pravara Confluence,Sewage and nutrient-rich runoff,Mixed Pollution,Wastewater,High,3,Water Quality Degradation,1
+Ahmednagar,Rural Riverbank Stretch,Fertilizer and pesticide runoff,Agricultural Runoff,Agricultural,Medium,2,Nutrient Pollution,1
+Chhatrapati Sambhajinagar,Paithan,Untreated municipal sewage,Domestic Sewage,Wastewater,High,3,Microbial Contamination,1
+Chhatrapati Sambhajinagar,Nath Temple Area,Pilgrim waste and ritual activities,Religious & Organic Waste,Cultural/Human Activity,High,3,Organic Pollution,1
+Chhatrapati Sambhajinagar,Jayakwadi Reservoir,Upstream wastewater and nutrient inflow,Mixed Pollution,Wastewater,High,3,Nutrient Pollution,1
+Chhatrapati Sambhajinagar,Nathsagar Stretch,Stagnation and organic accumulation,Mixed Pollution,Wastewater,Medium,2,Low Dissolved Oxygen,1
+Chhatrapati Sambhajinagar,Industrial Fringe Area,Industrial discharge and runoff,Industrial Effluent,Industrial,Medium,2,Chemical Contamination,1
+Jalna,Shahagad,Agricultural runoff from nearby farms,Agricultural Runoff,Agricultural,Medium,2,Nutrient Pollution,1
+Jalna,Riverbank Farming Belt,Fertilizer and pesticide runoff,Agricultural Runoff,Agricultural,Medium,2,Nutrient Pollution,1
+Jalna,Rural Drainage Stretch,Untreated village wastewater,Domestic Sewage,Wastewater,Medium,2,Organic Pollution,1
+Jalna,Jayakwadi Canal Region,Sediment and irrigation return flow,Agricultural Runoff,Agricultural,Medium,2,Sedimentation & Siltation,1
+Beed,Sindphana Confluence,Tributary sediment inflow,Agricultural Runoff,Agricultural,Medium,2,Sedimentation & Siltation,1
+Beed,Majalgaon Region,Irrigation runoff and nutrient inflow,Agricultural Runoff,Agricultural,Medium,2,Nutrient Pollution,1
+Beed,Rural Settlement Stretch,Local sewage and dumping,Domestic Sewage,Wastewater,Medium,2,Water Quality Degradation,1
+Beed,Bindusara-linked Stretch,Sediment and wastewater inflow,Mixed Pollution,Wastewater,Medium,2,Sedimentation & Siltation,1
+Parbhani,Sonpeth,Ritual use and local sewage,Religious & Organic Waste,Cultural/Human Activity,Medium,2,Localized Ecological Stress,1
+Parbhani,Gangakhed,Urban sewage and bathing activities,Domestic Sewage,Wastewater,High,3,Microbial Contamination,1
+Parbhani,Purna Confluence,Tributary runoff and nutrient inflow,Agricultural Runoff,Agricultural,Medium,2,Nutrient Pollution,1
+Parbhani,Riverbank Agricultural Belt,Farm runoff and soil erosion,Agricultural Runoff,Agricultural,Medium,2,Sedimentation & Siltation,1
+Parbhani,Rural Waste Disposal Stretch,Open dumping and drainage inflow,Solid Waste,Solid Pollution,Medium,2,Water Quality Degradation,1
+Nanded,Kaleshwar,Bathing and washing activities,Religious & Organic Waste,Cultural/Human Activity,Medium,2,Localized Ecological Stress,1
+Nanded,Govardhan Ghat,City sewage discharge,Domestic Sewage,Wastewater,High,3,Microbial Contamination,1
+Nanded,Shani Ghat,Sewage and garbage from nala,Solid Waste,Solid Pollution,High,3,Microbial Contamination,1
+Nanded,Navghat,Domestic sewage and city garbage,Mixed Pollution,Wastewater,High,3,Water Quality Degradation,1
+Nanded,Hattibanda Ghat,Sewage and slaughterhouse runoff,Mixed Pollution,Wastewater,High,3,Microbial Contamination,1
+Nanded,Vajegaon,Village runoff and riverbank use,Agricultural Runoff,Agricultural,Medium,2,Localized Ecological Stress,1
+Nanded,Vishnupuri Dam Area,Reduced flow and wastewater accumulation,Mixed Pollution,Wastewater,Medium,2,Low Dissolved Oxygen,1

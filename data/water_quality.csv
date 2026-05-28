@@ -1,56 +1,86 @@
-Location,Parameter,Safe_Limit,Observed_Value,Status,Impact
-Gangapur Dam upstream,pH,6.5-8.5,7.4,Safe,Stable baseline water quality
-Gangapur Dam upstream,Dissolved Oxygen (DO),>=5 mg/L,6.8,Safe,Adequate oxygen for aquatic life
-Gangapur Dam upstream,BOD,<=3 mg/L,1.5,Safe,Low organic pollution
-Gangapur Dam upstream,Total Coliform,<=500 MPN/100ml,120,Safe,Low sewage contamination
-Gangapur Dam upstream,Turbidity,Lower is better,18,Moderate,Some suspended matter during runoff
-Someshwar,pH,6.5-8.5,7.6,Safe,Within acceptable range
-Someshwar,Dissolved Oxygen (DO),>=5 mg/L,5.8,Safe,Still supportive of aquatic life
-Someshwar,BOD,<=3 mg/L,2.8,Safe,Approaching upper bathing limit
-Someshwar,Total Coliform,<=500 MPN/100ml,450,Unsafe,Early sewage stress
-Someshwar,Turbidity,Lower is better,35,Moderate,Local runoff and human activity
-Anandwalli Bridge,pH,6.5-8.5,8.0,Safe,Alkaline but acceptable
-Anandwalli Bridge,Dissolved Oxygen (DO),>=5 mg/L,3.8,Unsafe,Stress on aquatic organisms
-Anandwalli Bridge,BOD,<=3 mg/L,8.0,Unsafe,High organic pollution
-Anandwalli Bridge,Total Coliform,<=500 MPN/100ml,54000,Unsafe,Heavy sewage contamination
-Anandwalli Bridge,Turbidity,Lower is better,95,Unsafe,Visible degradation and silt load
-Tapovan STP downstream,pH,6.5-8.5,8.1,Safe,Still within range
-Tapovan STP downstream,Dissolved Oxygen (DO),>=5 mg/L,3.2,Unsafe,Poor oxygen condition downstream
-Tapovan STP downstream,BOD,<=3 mg/L,12.0,Unsafe,Treated or partially treated sewage load
-Tapovan STP downstream,Total Coliform,<=500 MPN/100ml,100000,Unsafe,Strong faecal contamination
-Tapovan STP downstream,Turbidity,Lower is better,110,Unsafe,High suspended pollution load
-Agartakli downstream,pH,6.5-8.5,8.2,Safe,Acceptable chemistry but polluted water
-Agartakli downstream,Dissolved Oxygen (DO),>=5 mg/L,2.0,Unsafe,Severe oxygen depletion
-Agartakli downstream,BOD,<=3 mg/L,14.0,Unsafe,Very high organic load
-Agartakli downstream,Total Coliform,<=500 MPN/100ml,480000,Unsafe,Extreme sewage contamination
-Agartakli downstream,Turbidity,Lower is better,140,Unsafe,Worst visible water quality in the stretch
-Kaleshwar (Nanded),pH,6.5-8.5,7.3,Safe,Within acceptable range
-Kaleshwar (Nanded),Dissolved Oxygen (DO),>=5 mg/L,5.6,Safe,Reasonable oxygen balance
-Kaleshwar (Nanded),BOD,<=3 mg/L,2.5,Safe,Low-to-moderate organic load
-Kaleshwar (Nanded),Total Coliform,<=500 MPN/100ml,400,Safe,Near bathing threshold
-Kaleshwar (Nanded),Turbidity,Lower is better,40,Moderate,Local activity and runoff influence
-Govardhan Ghat (Nanded),pH,6.5-8.5,7.8,Safe,Within acceptable range
-Govardhan Ghat (Nanded),Dissolved Oxygen (DO),>=5 mg/L,4.2,Unsafe,Reduced oxygen from sewage input
-Govardhan Ghat (Nanded),BOD,<=3 mg/L,5.5,Unsafe,Organic pollution from city sewage
-Govardhan Ghat (Nanded),Total Coliform,<=500 MPN/100ml,12000,Unsafe,Faecal contamination from urban discharge
-Govardhan Ghat (Nanded),Turbidity,Lower is better,75,Unsafe,High pollution load
-Shani Ghat (Nanded),pH,6.5-8.5,8.1,Safe,Within range but polluted
-Shani Ghat (Nanded),Dissolved Oxygen (DO),>=5 mg/L,3.6,Unsafe,Aquatic stress
-Shani Ghat (Nanded),BOD,<=3 mg/L,7.8,Unsafe,Strong sewage influence
-Shani Ghat (Nanded),Total Coliform,<=500 MPN/100ml,25000,Unsafe,Heavy microbial contamination
-Shani Ghat (Nanded),Turbidity,Lower is better,120,Unsafe,City sewage and garbage impact
-Navghat (Nanded),pH,6.5-8.5,8.2,Safe,Acceptable chemistry
-Navghat (Nanded),Dissolved Oxygen (DO),>=5 mg/L,3.1,Unsafe,Low oxygen from waste accumulation
-Navghat (Nanded),BOD,<=3 mg/L,9.5,Unsafe,High biodegradable waste load
-Navghat (Nanded),Total Coliform,<=500 MPN/100ml,32000,Unsafe,Serious sewage contamination
-Navghat (Nanded),Turbidity,Lower is better,150,Unsafe,High suspended waste and silt
-Hattibanda (Nanded),pH,6.5-8.5,8.0,Safe,Within acceptable range
-Hattibanda (Nanded),Dissolved Oxygen (DO),>=5 mg/L,2.8,Unsafe,Severe oxygen stress
-Hattibanda (Nanded),BOD,<=3 mg/L,10.5,Unsafe,Very high pollution load
-Hattibanda (Nanded),Total Coliform,<=500 MPN/100ml,40000,Unsafe,High faecal contamination
-Hattibanda (Nanded),Turbidity,Lower is better,170,Unsafe,Strong sewage and runoff effect
-Vajegaon (Nanded),pH,6.5-8.5,7.5,Safe,Near neutral and acceptable
-Vajegaon (Nanded),Dissolved Oxygen (DO),>=5 mg/L,4.8,Moderate,Close to threshold
-Vajegaon (Nanded),BOD,<=3 mg/L,4.0,Unsafe,Moderate organic pollution
-Vajegaon (Nanded),Total Coliform,<=500 MPN/100ml,2500,Unsafe,Still above bathing standard
-Vajegaon (Nanded),Turbidity,Lower is better,65,Unsafe,Downstream carryover pollution
+District,Location,Parameter,Parameter_Category,Safe_Limit,Observed_Value,Status,Severity_Score,Impact
+Nashik,Gangapur Dam,pH,Chemical,6.5-8.5,7.4,Safe,1,Localized Ecological Stress
+Nashik,Gangapur Dam,DO,Oxygen,5,6.8,Safe,1,Localized Ecological Stress
+Nashik,Gangapur Dam,BOD,Organic Load,3,1.5,Safe,1,Organic Pollution
+Nashik,Gangapur Dam,Coliform,Microbial,500,120,Safe,1,Microbial Contamination
+Nashik,Gangapur Dam,Turbidity,Physical,50,18,Moderate,2,Sedimentation & Turbidity
+Nashik,Someshwar,pH,Chemical,6.5-8.5,7.6,Safe,1,Localized Ecological Stress
+Nashik,Someshwar,DO,Oxygen,5,5.8,Safe,1,Localized Ecological Stress
+Nashik,Someshwar,BOD,Organic Load,3,2.8,Safe,1,Organic Pollution
+Nashik,Someshwar,Coliform,Microbial,500,450,Moderate,2,Microbial Contamination
+Nashik,Someshwar,Turbidity,Physical,50,35,Moderate,2,Sedimentation & Turbidity
+Nashik,Anandwalli,pH,Chemical,6.5-8.5,8.0,Safe,1,Localized Ecological Stress
+Nashik,Anandwalli,DO,Oxygen,5,3.8,Unsafe,3,Low Oxygen
+Nashik,Anandwalli,BOD,Organic Load,3,8.0,Unsafe,3,Organic Pollution
+Nashik,Anandwalli,Coliform,Microbial,500,54000,Unsafe,3,Microbial Contamination
+Nashik,Anandwalli,Turbidity,Physical,50,95,Unsafe,3,Sedimentation & Turbidity
+Nashik,Tapovan STP,pH,Chemical,6.5-8.5,8.1,Safe,1,Localized Ecological Stress
+Nashik,Tapovan STP,DO,Oxygen,5,3.2,Unsafe,3,Low Oxygen
+Nashik,Tapovan STP,BOD,Organic Load,3,12.0,Unsafe,3,Organic Pollution
+Nashik,Tapovan STP,Coliform,Microbial,500,100000,Unsafe,3,Microbial Contamination
+Nashik,Tapovan STP,Turbidity,Physical,50,110,Unsafe,3,Sedimentation & Turbidity
+Nashik,Agartakli,pH,Chemical,6.5-8.5,8.2,Safe,1,Localized Ecological Stress
+Nashik,Agartakli,DO,Oxygen,5,2.0,Unsafe,3,Low Oxygen
+Nashik,Agartakli,BOD,Organic Load,3,14.0,Unsafe,3,Organic Pollution
+Nashik,Agartakli,Coliform,Microbial,500,480000,Unsafe,3,Microbial Contamination
+Nashik,Agartakli,Turbidity,Physical,50,140,Unsafe,3,Water Quality Degradation
+Ahmednagar,Kopargaon,pH,Chemical,6.5-8.5,7.6,Safe,1,Localized Ecological Stress
+Ahmednagar,Kopargaon,DO,Oxygen,5,5.6,Safe,1,Localized Ecological Stress
+Ahmednagar,Kopargaon,BOD,Organic Load,3,3.4,Moderate,2,Organic Pollution
+Ahmednagar,Kopargaon,Coliform,Microbial,500,900,Moderate,2,Microbial Contamination
+Ahmednagar,Kopargaon,Turbidity,Physical,50,32,Moderate,2,Sedimentation & Turbidity
+Chhatrapati Sambhajinagar,Paithan,pH,Chemical,6.5-8.5,7.7,Safe,1,Localized Ecological Stress
+Chhatrapati Sambhajinagar,Paithan,DO,Oxygen,5,14.3,Safe,1,Localized Ecological Stress
+Chhatrapati Sambhajinagar,Paithan,BOD,Organic Load,3,11.08,Unsafe,3,Organic Pollution
+Chhatrapati Sambhajinagar,Paithan,Coliform,Microbial,500,1500,Unsafe,3,Microbial Contamination
+Chhatrapati Sambhajinagar,Paithan,Turbidity,Physical,50,3.4,Safe,1,Localized Ecological Stress
+Chhatrapati Sambhajinagar,Nathsagar,pH,Chemical,6.5-8.5,7.8,Safe,1,Localized Ecological Stress
+Chhatrapati Sambhajinagar,Nathsagar,DO,Oxygen,5,4.9,Moderate,2,Low Oxygen
+Chhatrapati Sambhajinagar,Nathsagar,BOD,Organic Load,3,7.0,Unsafe,3,Organic Pollution
+Chhatrapati Sambhajinagar,Nathsagar,Coliform,Microbial,500,2200,Unsafe,3,Microbial Contamination
+Chhatrapati Sambhajinagar,Nathsagar,Turbidity,Physical,50,22,Moderate,2,Sedimentation & Turbidity
+Jalna,Jayakwadi Fringe,pH,Chemical,6.5-8.5,7.7,Safe,1,Localized Ecological Stress
+Jalna,Jayakwadi Fringe,DO,Oxygen,5,4.7,Moderate,2,Low Oxygen
+Jalna,Jayakwadi Fringe,BOD,Organic Load,3,5.0,Unsafe,3,Organic Pollution
+Jalna,Jayakwadi Fringe,Coliform,Microbial,500,2500,Unsafe,3,Microbial Contamination
+Jalna,Jayakwadi Fringe,Turbidity,Physical,50,30,Moderate,2,Sedimentation & Turbidity
+Beed,Sindphana Confluence,pH,Chemical,6.5-8.5,7.6,Safe,1,Localized Ecological Stress
+Beed,Sindphana Confluence,DO,Oxygen,5,4.5,Moderate,2,Low Oxygen
+Beed,Sindphana Confluence,BOD,Organic Load,3,5.3,Unsafe,3,Organic Pollution
+Beed,Sindphana Confluence,Coliform,Microbial,500,3000,Unsafe,3,Microbial Contamination
+Beed,Sindphana Confluence,Turbidity,Physical,50,35,Moderate,2,Sedimentation & Turbidity
+Parbhani,Gangakhed,pH,Chemical,6.5-8.5,7.8,Safe,1,Localized Ecological Stress
+Parbhani,Gangakhed,DO,Oxygen,5,4.2,Unsafe,3,Low Oxygen
+Parbhani,Gangakhed,BOD,Organic Load,3,5.2,Unsafe,3,Organic Pollution
+Parbhani,Gangakhed,Coliform,Microbial,500,5000,Unsafe,3,Microbial Contamination
+Parbhani,Gangakhed,Turbidity,Physical,50,38,Moderate,2,Sedimentation & Turbidity
+Nanded,Kaleshwar,pH,Chemical,6.5-8.5,7.3,Safe,1,Localized Ecological Stress
+Nanded,Kaleshwar,DO,Oxygen,5,5.6,Safe,1,Localized Ecological Stress
+Nanded,Kaleshwar,BOD,Organic Load,3,2.5,Safe,1,Organic Pollution
+Nanded,Kaleshwar,Coliform,Microbial,500,400,Safe,1,Microbial Contamination
+Nanded,Kaleshwar,Turbidity,Physical,50,40,Moderate,2,Sedimentation & Turbidity
+Nanded,Govardhan Ghat,pH,Chemical,6.5-8.5,7.8,Safe,1,Localized Ecological Stress
+Nanded,Govardhan Ghat,DO,Oxygen,5,4.2,Unsafe,3,Low Oxygen
+Nanded,Govardhan Ghat,BOD,Organic Load,3,5.5,Unsafe,3,Organic Pollution
+Nanded,Govardhan Ghat,Coliform,Microbial,500,12000,Unsafe,3,Microbial Contamination
+Nanded,Govardhan Ghat,Turbidity,Physical,50,75,Unsafe,3,Water Quality Degradation
+Nanded,Shani Ghat,pH,Chemical,6.5-8.5,8.1,Safe,1,Localized Ecological Stress
+Nanded,Shani Ghat,DO,Oxygen,5,3.6,Unsafe,3,Low Oxygen
+Nanded,Shani Ghat,BOD,Organic Load,3,7.8,Unsafe,3,Organic Pollution
+Nanded,Shani Ghat,Coliform,Microbial,500,25000,Unsafe,3,Microbial Contamination
+Nanded,Shani Ghat,Turbidity,Physical,50,120,Unsafe,3,Water Quality Degradation
+Nanded,Navghat,pH,Chemical,6.5-8.5,8.2,Safe,1,Localized Ecological Stress
+Nanded,Navghat,DO,Oxygen,5,3.1,Unsafe,3,Low Oxygen
+Nanded,Navghat,BOD,Organic Load,3,9.5,Unsafe,3,Organic Pollution
+Nanded,Navghat,Coliform,Microbial,500,32000,Unsafe,3,Microbial Contamination
+Nanded,Navghat,Turbidity,Physical,50,150,Unsafe,3,Water Quality Degradation
+Nanded,Hattibanda Ghat,pH,Chemical,6.5-8.5,8.0,Safe,1,Localized Ecological Stress
+Nanded,Hattibanda Ghat,DO,Oxygen,5,2.8,Unsafe,3,Low Oxygen
+Nanded,Hattibanda Ghat,BOD,Organic Load,3,10.5,Unsafe,3,Organic Pollution
+Nanded,Hattibanda Ghat,Coliform,Microbial,500,40000,Unsafe,3,Microbial Contamination
+Nanded,Hattibanda Ghat,Turbidity,Physical,50,170,Unsafe,3,Water Quality Degradation
+Nanded,Vajegaon,pH,Chemical,6.5-8.5,7.5,Safe,1,Localized Ecological Stress
+Nanded,Vajegaon,DO,Oxygen,5,4.8,Moderate,2,Low Oxygen
+Nanded,Vajegaon,BOD,Organic Load,3,4.0,Unsafe,3,Organic Pollution
+Nanded,Vajegaon,Coliform,Microbial,500,2500,Unsafe,3,Microbial Contamination
+Nanded,Vajegaon,Turbidity,Physical,50,65,Unsafe,3,Sedimentation & Turbidity

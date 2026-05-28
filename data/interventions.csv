@@ -1,11 +1,24 @@
-Stakeholder,Intervention,Challenge,Expected_Impact
-Nashik Municipal Corporation,Complete and upgrade STPs at Nashik,Funding gaps and O&M issues,Lower untreated sewage discharge into the river
-Nashik Municipal Corporation,Intercept and divert nallas before they meet the Godavari,Multiple drains carrying wastewater,Reduced direct sewage inflow
-MPCB + Industries at Satpur and Ambad,Strengthen industrial effluent treatment and compliance checks,No common CETP and dispersed units,Lower chemical and toxic pollution
-NMC + Temple trusts + local volunteers,Expand Nirmalya and ritual-waste collection at ghats,High pilgrim footfall and waste disposal habits,Reduced organic and solid waste load
-NMC,Remove water hyacinth and clean riverbanks regularly,Recurring weed growth and bank litter,Improved flow and visible water quality
-Water Resources Department,Maintain better environmental flow during lean months,Water demand for irrigation and other uses,Less concentration of pollutants and better river health
-Nanded Municipal Corporation,Intercept and treat city sewage before discharge at major ghats,Large sewage and garbage inflow at urban ghats,Lower microbial and organic pollution
-Nanded Municipal Corporation + health/local bodies,Improve municipal waste handling near riverfronts,Open dumping and mixed waste,Reduced solid waste on banks
-Agriculture Department + local farmers,Adopt buffer strips and runoff control near riverbanks,Runoff from fields and scattered adoption,Lower nutrient and silt load
-District administration + mining enforcement teams,Strict action against illegal sand mining,Continued sand extraction in some stretches,Lower turbidity, sedimentation, and bank erosion
+District,Stakeholder,Stakeholder_Type,Intervention,Intervention_Category,Challenge,Expected_Impact,Priority_Score
+Nashik,Nashik Municipal Corporation,Government,Commission Tapovan Agartakli Chehedi and Panchak STPs,Wastewater Management,Funding and O&M,Reduced sewage discharge,3
+Nashik,Nashik Municipal Corporation,Government,Intercept and divert major nullahs before river entry,Wastewater Management,Multiple sewage drains,Lower untreated inflow,3
+Nashik,MPCB and local industries,Regulatory and Industry,Strengthen effluent treatment and compliance checks,Industrial Pollution Control,Dispersed industrial units,Reduced chemical pollution,3
+Nashik,Nashik Municipal Corporation and temple trusts,Government and Community,Expand nirmalya and ritual waste collection at ghats,Solid Waste Management,High pilgrim waste,Lower organic and solid load,2
+Nashik,River cleaning teams and civic body,Government,Daily bank cleaning and hyacinth removal,River Restoration,Recurring weed growth,Improved riverfront condition,2
+Nashik,Water Resources Department,Government,Maintain environmental flows in lean months,Water Resource Management,Low dry season flow,Less pollutant concentration,2
+Ahmednagar,Local municipal bodies,Government,Upgrade sewage capture and small STPs near river towns,Wastewater Management,Limited sewer coverage,Reduced organic pollution,3
+Ahmednagar,Agriculture Department and farmers,Government and Community,Add buffer strips and runoff control near river stretches,Agricultural Management,Diffuse farm runoff,Lower nutrient loading,2
+Ahmednagar,District administration,Government,Monitor tributary confluences and drain outfalls,Monitoring and Enforcement,Scattered rural discharge,Earlier pollution detection,2
+Chhatrapati Sambhajinagar,Paithan Municipal Council and MJP,Government,Complete the Paithan sewage project and underground drainage,Wastewater Management,Untreated municipal sewage,Reduced sewage discharge,3
+Chhatrapati Sambhajinagar,Temple and ghat managers,Community,Ritual waste segregation and collection at ghat areas,Solid Waste Management,High pilgrim waste,Cleaner ghat stretch,2
+Chhatrapati Sambhajinagar,Water Resources Department,Government,Monitor reservoir inflow and reduce pollutant accumulation,River Restoration,Stagnation and silt buildup,Better water quality at reservoir stretch,2
+Jalna,Local panchayats,Government,Build village wastewater collection and soak pits,Wastewater Management,Untreated rural drains,Reduced organic pollution,2
+Jalna,Agriculture Department and farmers,Government and Community,Use buffer strips and fertilizer runoff control,Agricultural Management,Monsoon runoff,Lower turbidity and nutrients,2
+Beed,District administration and irrigation bodies,Government,Control sediment inflow at tributary-linked stretches,River Restoration,Silt inflow,Less sedimentation,2
+Beed,Agriculture Department and farmers,Government and Community,Reduce fertilizer runoff in farm belts,Agricultural Management,Nutrient inflow,Lower nutrient pollution,2
+Parbhani,Local municipal bodies,Government,Intercept sewage and divert drains from ghat stretches,Wastewater Management,Local sewage discharge,Reduced microbial contamination,3
+Parbhani,Agriculture Department and farmers,Government and Community,Soil erosion control and runoff buffers,Agricultural Management,Monsoon runoff,Lower sediment and nutrient load,2
+Nanded,Nanded Waghala City Municipal Corporation,Government,Sewer network augmentation and STP upgrades,Wastewater Management,Untreated sewage,Lower microbial and organic pollution,3
+Nanded,Nanded Waghala City Municipal Corporation,Government,Intercept drains at major ghats,Wastewater Management,Open drains,Reduced direct inflow,3
+Nanded,MPCB and local industries,Regulatory and Industry,Monitor MIDC effluent compliance,Industrial Pollution Control,Compliance gaps,Lower chemical load,3
+Nanded,Municipal sanitation teams,Government,Improve solid waste pickup and ghat cleaning,Solid Waste Management,Riverbank dumping,Cleaner banks and lower contamination,2
+Nanded,Local bodies and health teams,Government and Community,Improve toilet coverage and sanitation near riverfronts,Sanitation,Open defecation and waste mixing,Reduced faecal contamination,2
