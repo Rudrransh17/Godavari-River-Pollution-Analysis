@@ -1,40 +1,40 @@
-Original Dataset Location,GIS Location Used,District,Search_Name
-Trimbakeshwar,Trimbakeshwar,Nashik,"Trimbakeshwar, Nashik, Maharashtra, India"
-Gangapur Dam,Gangapur Dam,Nashik,"Gangapur Dam, Nashik, Maharashtra, India"
-Someshwar,Someshwar,Nashik,"Someshwar, Nashik, Maharashtra, India"
-Panchavati,Panchavati,Nashik,"Panchavati, Nashik, Maharashtra, India"
-Anandwalli,Anandwalli,Nashik,"Anandwalli, Nashik, Maharashtra, India"
-Tapovan STP,Tapovan STP,Nashik,"Tapovan STP, Nashik, Maharashtra, India"
-Satpur MIDC,Satpur MIDC,Nashik,"Satpur MIDC, Nashik, Maharashtra, India"
-Ambad MIDC,Ambad MIDC,Nashik,"Ambad MIDC, Nashik, Maharashtra, India"
-Nandur Madhmeshwar,Nandur Madhmeshwar,Nashik,"Nandur Madhmeshwar, Nashik, Maharashtra, India"
-Kopargaon,Kopargaon,Ahmednagar,"Kopargaon, Ahmednagar, Maharashtra, India"
-Puntamba,Puntamba,Ahmednagar,"Puntamba, Ahmednagar, Maharashtra, India"
-Pravarasangam,Pravarasangam,Ahmednagar,"Pravarasangam, Ahmednagar, Maharashtra, India"
-Godavari-Pravara Confluence,Pravarasangam,Ahmednagar,"Pravarasangam, Ahmednagar, Maharashtra, India"
-Rural Riverbank Stretch,Rahata,Ahmednagar,"Rahata, Ahmednagar, Maharashtra, India"
-Paithan,Paithan,Chhatrapati Sambhajinagar,"Paithan, Chhatrapati Sambhajinagar, Maharashtra, India"
-Nath Temple Area,Paithan (Nath Temple),Chhatrapati Sambhajinagar,"Paithan (Nath Temple), Chhatrapati Sambhajinagar, Maharashtra, India"
-Jayakwadi Reservoir,Jayakwadi Dam,Chhatrapati Sambhajinagar,"Jayakwadi Dam, Chhatrapati Sambhajinagar, Maharashtra, India"
-Nathsagar Stretch,Georai,Chhatrapati Sambhajinagar,"Georai, Chhatrapati Sambhajinagar, Maharashtra, India"
-Industrial Fringe Area,Waluj MIDC,Chhatrapati Sambhajinagar,"Waluj MIDC, Chhatrapati Sambhajinagar, Maharashtra, India"
-Shahagad,Shahagad,Jalna,"Shahagad, Jalna, Maharashtra, India"
-Riverbank Farming Belt,Ambad,Jalna,"Ambad, Jalna, Maharashtra, India"
-Rural Drainage Stretch,Partur,Jalna,"Partur, Jalna, Maharashtra, India"
-Jayakwadi Canal Region,Ghansawangi,Jalna,"Ghansawangi, Jalna, Maharashtra, India"
-Sindphana Confluence,Majalgaon,Beed,"Majalgaon, Beed, Maharashtra, India"
-Majalgaon Region,Majalgaon,Beed,"Majalgaon, Beed, Maharashtra, India"
-Rural Settlement Stretch,Patoda,Beed,"Patoda, Beed, Maharashtra, India"
-Bindusara-linked Stretch,Beed City,Beed,"Beed City, Beed, Maharashtra, India"
-Sonpeth,Sonpeth,Parbhani,"Sonpeth, Parbhani, Maharashtra, India"
-Gangakhed,Gangakhed,Parbhani,"Gangakhed, Parbhani, Maharashtra, India"
-Purna Confluence,Purna,Parbhani,"Purna, Parbhani, Maharashtra, India"
-Riverbank Agricultural Belt,Pathri,Parbhani,"Pathri, Parbhani, Maharashtra, India"
-Rural Waste Disposal Stretch,Manwath,Parbhani,"Manwath, Parbhani, Maharashtra, India"
-Kaleshwar,Kaleshwar,Nanded,"Kaleshwar, Nanded, Maharashtra, India"
-Govardhan Ghat,Govardhan Ghat,Nanded,"Govardhan Ghat, Nanded, Maharashtra, India"
-Shani Ghat,Shani Ghat,Nanded,"Shani Ghat, Nanded, Maharashtra, India"
-Navghat,Navghat,Nanded,"Navghat, Nanded, Maharashtra, India"
-Hattibanda Ghat,Hattibanda Ghat,Nanded,"Hattibanda Ghat, Nanded, Maharashtra, India"
-Vajegaon,Vajegaon,Nanded,"Vajegaon, Nanded, Maharashtra, India"
-Vishnupuri Dam Area,Vishnupuri Dam,Nanded,"Vishnupuri Dam, Nanded, Maharashtra, India"
+Original Dataset Location,GIS Location Used,District,Latitude,Longitude,Notes
+Trimbakeshwar,Trimbakeshwar,Nashik,19.939142,73.536819,Exact/public source
+Gangapur Dam,Gangapur Dam,Nashik,20.0260565,73.6671498,Exact/public source
+Someshwar,Someshwar,Nashik,20.022868,73.728119,Proxy near Someshwar Temple
+Panchavati,Panchavati,Nashik,20.0068647,73.7929901,Exact/public source
+Anandwalli,Anandwalli,Nashik,20.0123484,73.7401706,Exact/public source
+Tapovan STP,Tapovan STP,Nashik,19.9873516,73.8117331,Exact/public source
+Satpur MIDC,Satpur MIDC,Nashik,19.9974405,73.7212829,Proxy using Satpur locality
+Ambad MIDC,Ambad MIDC,Nashik,19.9514652,73.7362386,Exact/public source
+Nandur Madhmeshwar,Nandur Madhmeshwar,Nashik,19.9833,74.0305,Exact/public source
+Kopargaon,Kopargaon,Ahmednagar,19.883301,74.483299,Exact/public source
+Puntamba,Puntamba,Ahmednagar,19.7666667,74.6194444,Exact/public source
+Pravarasangam,Pravarasangam,Ahmednagar,19.62002,75.01798,Exact/public source
+Godavari-Pravara Confluence,Pravarasangam,Ahmednagar,19.62002,75.01798,Proxy to Pravarasangam
+Rural Riverbank Stretch,Rahata,Ahmednagar,19.7123293,74.4819489,Proxy to nearby town
+Paithan,Paithan,Chhatrapati Sambhajinagar,19.475899,75.385178,Exact/public source
+Nath Temple Area,Paithan (Nath Temple),Chhatrapati Sambhajinagar,19.475899,75.385178,Proxy to Paithan
+Jayakwadi Reservoir,Jayakwadi Dam,Chhatrapati Sambhajinagar,19.485770,75.370011,Exact/public source
+Nathsagar Stretch,Jayakwadi Dam,Chhatrapati Sambhajinagar,19.485770,75.370011,Proxy to reservoir area
+Industrial Fringe Area,Waluj MIDC,Chhatrapati Sambhajinagar,19.639911,75.236237,Proxy to Waluj locality
+Shahagad,Shahagad,Jalna,19.3934687,75.607988,Exact/public source
+Riverbank Farming Belt,Ambad,Jalna,19.4563456,75.7977669,Proxy to Ambad town
+Rural Drainage Stretch,Partur,Jalna,19.355484,76.181067,Proxy to Partur
+Jayakwadi Canal Region,Ghansawangi,Jalna,19.41856599,75.98575336,Proxy to Ghansawangi
+Sindphana Confluence,Majalgaon,Beed,19.15557,76.216944,Proxy to Majalgaon
+Majalgaon Region,Majalgaon,Beed,19.15557,76.216944,Exact/public source
+Rural Settlement Stretch,Patoda,Beed,19.3859272,75.5330313,Exact/public source
+Bindusara-linked Stretch,Beed City,Beed,19.332012,75.866138,Proxy to Beed city
+Sonpeth,Sonpeth,Parbhani,19.1329147,76.5516843,Exact/public source
+Gangakhed,Gangakhed,Parbhani,19.1063544,76.7480805,Exact/public source
+Purna Confluence,Purna,Parbhani,19.184537,77.011945,Exact/public source
+Riverbank Agricultural Belt,Pathri,Parbhani,19.160913,76.4343389,Exact/public source
+Rural Waste Disposal Stretch,Manwath,Parbhani,19.199999,76.5,Exact/public source
+Kaleshwar,Kaleshwar,Nanded,19.11194,77.28889,Proxy to Vishnupuri area
+Govardhan Ghat,Govardhan Ghat,Nanded,19.169815,77.319717,Proxy to Nanded city
+Shani Ghat,Shani Ghat,Nanded,19.169815,77.319717,Proxy to Nanded city
+Navghat,Navghat,Nanded,19.169815,77.319717,Proxy to Nanded city
+Hattibanda Ghat,Hattibanda Ghat,Nanded,19.143757,77.3475094,Proxy to Wajegaon vicinity
+Vajegaon,Vajegaon,Nanded,19.143757,77.3475094,Exact/public source
+Vishnupuri Dam Area,Vishnupuri Dam,Nanded,19.11194,77.28889,Proxy to Vishnupuri village
