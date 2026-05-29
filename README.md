@@ -24,6 +24,10 @@ Power BI dashboard featuring:
 * Intervention overview
 * High-risk locations
 
+### GIS Visualization
+
+A GIS hotspot map was created using QGIS to visualize pollution locations across the Godavari River basin in Maharashtra. The map highlights the spatial concentration of identified pollution sources and supports the findings from the dashboard and report.
+
 ### Report
 
 The report covers:
