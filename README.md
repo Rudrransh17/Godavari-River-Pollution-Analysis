@@ -57,6 +57,7 @@ The report covers:
 ## Tools & Technologies
 * Microsoft Excel
 * Power BI
+* QGIS
 * GitHub
 * Data Analysis
 * Environmental Research
